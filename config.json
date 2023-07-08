@@ -168,6 +168,17 @@
     {
       "type": "text",
       "action": "output"
+    },
+    {
+      "type": "mikrotikGeoIPScript",
+      "action": "output",
+      "args": {
+        "outputName": "geoip-cn.rsc",
+        "wantedList": ["cn", "private"],
+        "oneFilePerList": true,
+        "listName": "GEOIP-CN",
+        "onlyIPType":"ipv4"
+      }
     }
   ]
 }
