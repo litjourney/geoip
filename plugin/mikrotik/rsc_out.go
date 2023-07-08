@@ -169,7 +169,7 @@ func (o *mikrotikScriptOut) marshalData(entry *lib.Entry) ([]byte, error) {
 
 func (o *mikrotikScriptOut) addMikrotikScriptPrefix() []byte {
 	var buf bytes.Buffer
-	buf.WriteString(fmt.Sprintf("/log info \"Loading %s address list\"", o.ACListName))
+	buf.WriteString(fmt.Sprintf("/log info \"Loading %s address list\"\n", o.ACListName))
 	buf.WriteString(fmt.Sprintf("/ip firewall address-list remove [/ip firewall address-list find list=%s]\n", o.ACListName))
 	buf.WriteString("/ip firewall address-list\n")
 	return buf.Bytes()
