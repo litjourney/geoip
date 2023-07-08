@@ -176,7 +176,7 @@
         "outputName": "geoip-cn.rsc",
         "wantedList": ["cn", "private"],
         "oneFilePerList": true,
-        "listName": "GEOIP-CN",
+        "aclistName": "GEOIP-CN",
         "onlyIPType":"ipv4"
       }
     }
