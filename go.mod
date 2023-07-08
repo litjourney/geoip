@@ -1,4 +1,4 @@
-module github.com/Loyalsoldier/geoip
+module github.com/litjourney/geoip
 
 go 1.19
 

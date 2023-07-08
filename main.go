@@ -9,7 +9,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/Loyalsoldier/geoip/lib"
+	"github.com/litjourney/geoip/lib"
 )
 
 var (
