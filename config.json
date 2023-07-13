@@ -184,7 +184,7 @@
       "type": "mikrotikGeoIPScript",
       "action": "output",
       "args": {
-        "outputName": "geoip-cn.rsc",
+        "outputName": "geoip-private.rsc",
         "wantedList": ["private"],
         "oneFilePerList": true,
         "aclistName": "GEOIP-LAN",
