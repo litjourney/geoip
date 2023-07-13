@@ -174,9 +174,20 @@
       "action": "output",
       "args": {
         "outputName": "geoip-cn.rsc",
-        "wantedList": ["cn", "private"],
+        "wantedList": ["cn"],
         "oneFilePerList": true,
         "aclistName": "GEOIP-CN",
+        "onlyIPType":"ipv4"
+      }
+    },
+    {
+      "type": "mikrotikGeoIPScript",
+      "action": "output",
+      "args": {
+        "outputName": "geoip-cn.rsc",
+        "wantedList": ["private"],
+        "oneFilePerList": true,
+        "aclistName": "GEOIP-LAN",
         "onlyIPType":"ipv4"
       }
     }
